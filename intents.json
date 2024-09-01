@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello!", "Good to see you!", "Hi there, how can I help you today?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time"],
+            "responses": ["Goodbye!", "Have a great day!", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"],
+            "context": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How can you help me?", "What can you do?", "What help do you provide?", "How can you assist me?", "What support do you offer?"],
+            "responses": ["I can recommend video games for you!", "Tell me what kind of game you're interested in, and I'll suggest something (multiplayer game, single player game, co-op game, strategy game, RPG game, sports game)."],
+            "context": [""]
+        },
+        {
+            "tag": "multiplayer game",
+            "patterns": ["Multiplayer games", "Games I can play with friends", "Give me a multiplayer game to play", "What multiplayer games are good?"],
+            "responses": [
+                "How about Overwatch 2? It's a fast-paced team-based shooter with exciting 6v6 matches and a diverse roster of heroes.",
+                "Not into Overwatch 2? Maybe League of Legends would be more your style. It's a highly competitive team-based strategy game where two teams of five powerful champions battle it out.",
+                "If those aren't for you, how about Fortnite? It's a popular battle royale game with 100 players fighting to be the last one standing, known for its building mechanics and frequent updates.",
+                "Still not interested? How about trying Deadlocked? Deadlocked is a high-energy, chaotic multiplayer shooter that emphasizes fast-paced gameplay and team coordination."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "single player game",
+            "patterns": ["Single player", "I want to play a single player game", "What single player games do you know?", "Name single player games"],
+            "responses": [
+                "How about Elden Ring? It's an expansive action RPG with a dark fantasy setting, where players explore an open world filled with challenging enemies and intricate lore.",
+                "If Elden Ring doesn't appeal to you, how about Black Myth Wukong? It's an action-adventure game inspired by Chinese mythology, offering intense combat and a rich narrative.",
+                "Not feeling those? Try Shovel Knight! It's a retro-inspired platformer with tight controls and challenging gameplay, featuring charming 8-bit art.",
+                "If you want something immersive, try The Witcher 3: Wild Hunt. It's a story-driven RPG with deep characters and a vast open world."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "co-op game",
+            "patterns": ["Co-op games", "Games I can play with friends", "Give me a co-op game", "What co-op games are good?"],
+            "responses": [
+                "How about It Takes Two? It's a unique co-op adventure game designed specifically for two players, offering a heartfelt story and creative gameplay mechanics.",
+                "Try out Left 4 Dead 2! It's a classic co-op shooter where you and your friends can battle hordes of zombies together.",
+                "If you're into puzzles, try Portal 2. The co-op mode is a great way to challenge your problem-solving skills with a friend.",
+                "Overcooked 2 is a fun and chaotic co-op game where you and your friends manage a kitchen and try to complete orders."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "strategy game",
+            "patterns": ["Strategy games", "Games that require strategy", "Give me a strategy game to play", "What strategy games are good?"],
+            "responses": [
+                "How about Civilization VI? It's a turn-based strategy game where you build an empire to stand the test of time.",
+                "If you prefer real-time strategy, try Starcraft II. It's a fast-paced game that requires quick thinking and precise actions.",
+                "Total War: Three Kingdoms is a great choice if you enjoy both grand strategy and real-time battles set in ancient China.",
+                "XCOM 2 is an excellent turn-based strategy game that combines tactical combat with base management."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "RPG game",
+            "patterns": ["RPG games", "Role-playing games", "Give me an RPG game to play", "What RPG games are good?"],
+            "responses": [
+                "How about Skyrim? It's an open-world RPG with endless exploration and character customization.",
+                "If you're into sci-fi, try Mass Effect. It's a story-driven RPG with deep characters and impactful choices.",
+                "The Witcher 3: Wild Hunt is a fantastic RPG with a rich narrative and expansive open world.",
+                "Divinity: Original Sin 2 is a highly praised RPG that offers tactical turn-based combat and a branching story."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "sports game",
+            "patterns": ["Sports games", "Games about sports", "Give me a sports game to play", "What sports games are good?"],
+            "responses": [
+                "FIFA 24 is a top choice if you enjoy soccer. It offers realistic gameplay and various modes.",
+                "NBA 2K4 is a great option for basketball fans, offering a comprehensive basketball simulation experience.",
+                "If you like American football, Madden NFL 24 is the game to play, with realistic gameplay and deep franchise mode.",
+                "For racing fans, try F1 2024. It's an exciting racing game with detailed graphics and realistic car handling."
+            ],
+            "context": [""]
+        }
+    ]
+}
